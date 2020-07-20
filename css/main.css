@@ -1,0 +1,297 @@
+@-webkit-keyframes flash {
+	0% {
+		opacity: 0.4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes line {
+  to{
+    stroke-dashoffset:0px;
+  }
+}
+@-webkit-keyframes fill {
+  from{
+    fill:transparent;
+  }
+  to{
+    fill:#D52104;
+  }
+}
+
+.hidden{
+  width:1px; height:1px; font-size:0px; line-height:0px; position:absolute;
+}
+
+body{
+  width:100%; height:9500px; background-color:rgba(248,175,3,1); cursor:default;
+}
+
+/* header */
+header{
+  width:190px; height:220px; position:fixed; top:120px; left:80px; z-index:101;
+}
+p#menu_icon{
+  width:150px; height:50px; float:left; font:normal 24px/27px "Noto Sans"; text-decoration:none; font-weight:700;
+}
+p#menu_icon span{
+  width:23px; height:45px; display:block; background:#D52104; float:left; margin:5px 10px 0px 0px;
+}
+nav#mainmenu_list{
+  width:100%; height: 600px; float:left; margin-top:30px; 
+}
+ul#mainmenu{
+  width:100%; height:100%; position: relative; left:0px; top:0px;
+}
+ul#mainmenu li{
+  width:100%; height:40px;  color:#D52104; font:normal 24px/26px "Noto Sans"; text-decoration:none; font-weight: 700;
+}
+/* main */
+div#main_wrap{
+  width:100%; height:auto; float:left;
+}
+/* home */
+section#home{
+  width:100%; height:auto; float:left;
+}
+div#full_banner{
+  position: relative; left:0px; top:0px; width:100%;
+}
+div#name{
+  width:970px; height:400px; position: absolute; left:50%; margin-left:-465px; top:50%; margin-top:-200px; z-index:99;
+}
+p#description{
+  width:940px; height:600px; color:#D52104; font:normal 56px/67px "Noto Serif"; font-weight:700; margin:0px auto; text-align: center;
+}
+path:nth-child(1){
+  stroke-dasharray:1463.78px;
+  stroke-dashoffset:1463.78px;
+}
+path:nth-child(2){
+  stroke-dasharray:888.54px;
+  stroke-dashoffset:888.54px;
+}
+path:nth-child(3){
+  stroke-dasharray:966.4px;
+  stroke-dashoffset:966.4px;
+}
+path:nth-child(4){
+  stroke-dasharray:1061px;
+  stroke-dashoffset:1061px;
+}
+path:nth-child(5){
+  stroke-dasharray:966.4px;
+  stroke-dashoffset:966.4px;
+}
+path:nth-child(6){
+  stroke-dasharray:856px;
+  stroke-dashoffset:856px;
+}
+path:nth-child(7){
+  stroke-dasharray:754.67px;
+  stroke-dashoffset:754.67px;
+}
+path:nth-child(8){
+  stroke-dasharray:1139.4px;
+  stroke-dashoffset:1139.4px;
+}
+path:nth-child(9){
+  stroke-dasharray:1061px;
+  stroke-dashoffset:1061px;
+}
+path:nth-child(10){
+  stroke-dasharray:856.7px;
+  stroke-dashoffset:856.7px;
+}
+/* home img */
+ul#image_list{
+  width:100%; height:100%; position:relative; left:0px; top:0px;
+}
+ul#image_list li{
+  position: absolute; width:auto; height:auto; opacity:0; display:none;
+}
+/* about */
+section#about{
+  width:100%; height:2000px; float:left; position: relative; left:0px; top:0px;
+}
+div#about_img{
+  width:545px; height:528px; opacity:0.8; position: absolute; left:50%; top:230px; margin-left:-272px; background: url("/markrothko/images/mark_about.png")no-repeat;
+}
+div#about_bg{
+  width:545px; background:#4D4D52; height:528px; position: absolute; left:50%; top:200px; margin-left:-232px;
+}
+div#about_title{
+  width:900px; height:300px; color:#C8AB8E; font:normal 144px/150px "Noto Serif"; font-weight:700; position:absolute; left:50%; top:700px; margin-left:-450px;
+}
+div#about_title span{
+  margin-left:200px;
+}
+div#about_text_wrap{
+  width:75%; height:700px; position:absolute; right:0px; top:1140px;
+}
+ul#about_text li{
+  background:none;
+}
+p.about_text01{
+  color:#C8AB8E; font:normal 48px "Noto Serif"; font-weight:700; width:930px; position: absolute; left:0px; top:90px; text-align: left;
+}
+p.about_text02{
+  color:#C8AB8E; font:normal 48px/55px "Noto Serif"; font-weight:700; text-align: justify; width:930px; position: absolute; left:0px; top:190px;
+}
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+  background:#C8AB8E;
+}
+/* painting */
+section#painting{
+  width:100%; height:1600px; float:left; position: relative; left:0px; top:0px;
+}
+div#painting_title_wrap{
+  position: absolute; left:0px; top:200px; width:100%; height:200px; overflow:hidden;
+}
+ul.painting_title{
+  width:3500px; height:100%; position: absolute; left:0px; top:0px;
+}
+ul.painting_title li{
+  color:#072357; font:normal 144px "Noto Serif"; font-weight:700; float:left; margin-right:100px;
+}
+div#painting_text{
+  color:#072357; font:normal 48px "Noto Serif"; font-weight:700; text-align:center; position:absolute; left:50%; margin-left:-465px; top:530px; width:930px;
+}
+ul#painting_list{
+  width:761px; height:500px; position: absolute; margin-left:-380px; left:50%; top:800px; overflow: hidden;
+}
+ul#painting_list li{
+  position: absolute; left:0px; top:0px; height:100%; width:100%; text-align: center;
+}
+ul#painting_list li img{
+  height:100%;
+}
+ul#painting_list li:nth-child(6){
+  display:none;
+}
+div#painting_more{
+  position: absolute; top:1400px; width:335px; margin-left:-167px; left:50%;
+}
+div#painting_more a{
+  font:normal 32px "Noto Sans"; color:#072357; font-weight: 700;
+}
+#allpainting{
+  overflow:hidden; position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:99999; background:#dddddd;
+}
+/* article */
+section#article{
+  width:100%; height:2500px; float:left; position: relative; left:0px; top:0px;
+}
+div#article_img{
+  width:830px; height:830px; position: absolute; left:50%; margin-left:-600px; top:200px; opacity:0.85; background:url("/markrothko/images/mark_articles.png")no-repeat;
+}
+div#article_text{
+  width:560px; background:#DDB102; height:560px; border-radius:50%; position:absolute; left:50%; margin-left:100px; top:350px;
+}
+div#article_text span{
+  text-align:center; color:#534399; font:normal 36px "Noto Serif"; font-weight: 700; margin-top:170px; display:block;
+}
+div#article_title_wrap{
+  position: absolute; left:0px; top:1100px; width:100%; height:200px; overflow:hidden;
+}
+ul.article_title{
+  width:3500px; height:100%; position: absolute; left:0px; top:0px;
+}
+ul.article_title li{
+  color:#DDB102; font:normal 144px "Noto Serif"; font-weight:700; float:left; margin-right:100px;
+}
+ul#article_list{
+  margin:1500px auto;
+}
+ul#article_list li{
+  margin-bottom:40px; text-align: center;
+}
+ul#article_list li a{
+  color:#DDB102; font:normal 48px "Noto Serif"; font-weight:700; text-decoration:none;
+}
+ul#article_list li:hover a{
+  text-decoration: underline;
+}
+/* where */
+section#where{
+  width:100%; height:1900px; float:left;
+}
+p#where_title{
+  font:normal 144px/144px "Noto Serif"; font-weight:700; text-align: center; color:#DE432A; margin:200px auto;
+}
+div#map{
+  width:913px; height:455px; margin:150px auto; position: relative; left:0px; top:0px;
+}
+ul#ja{
+  position:absolute; left:198px; top:167px; width:600px; height:540px; overflow: hidden;
+}
+ul#ja img{
+  position: absolute; right:0px; top:0px;
+}
+ul#ja li{
+  margin-bottom:10px; text-align: right;
+}
+ul#usa{
+  position:absolute; left:0px; top:68px;
+}
+ul#usa img{
+  position: absolute; left:0px; top:0px;
+}
+ul#usa li{
+  margin-bottom:10px;
+}
+ul#uk{
+  position:absolute; left:406px; top:112px;
+}
+ul#uk img{
+  position: absolute; left:0px; top:0px;
+}
+ul#uk li{
+  margin-bottom:10px;
+}
+ul#ja .map_title{
+  font:normal 36px "Noto Serif"; font-weight: 700; color:#DE432A; margin-top:400px; margin-right:50px;
+}
+ul#usa .map_title{
+  font:normal 36px "Noto Serif"; font-weight: 700; color:#DE432A; margin-top:455px; margin-left:50px;
+}
+ul#uk .map_title{
+  font:normal 36px "Noto Serif"; font-weight: 700; color:#DE432A; margin-top:500px; margin-left:50px;
+}
+.map_title{
+  display: none; opacity:0;
+}
+.map_text{
+  margin-left:50px; opacity:0; font:normal 24px "Noto Sans"; font-weight:700; color:#DE432A; width:600px; display: none; position: relative; left:0px; top:0px;
+}
+.line{
+   width:2px; height:0px; position: absolute; top:10px; left:10px; background:#DE432A; display:none;
+}
+ul#ja .line{
+  left:580px; height:530px; top:10px;
+}
+ul#ja .map_text{
+  left:-100px;
+}
+/* mouse change */
+.mouse{
+  width:20px; height:20px; position: absolute; pointer-events: none;
+}
+.mouse span{
+  position:absolute; left:-50%; top:-50%; width:20px; height:20px; z-index:100; border-radius:50%; background:black; pointer-events: none;
+}
+
+.mouse_click{
+  width:20px; height:20px; position: absolute; pointer-events: none; display:none;
+}
+.mouse_click span{
+  position:absolute; width:100px; height:20px; z-index:100; pointer-events: none; left:15px; top:0px; font:normal 18px "Noto Sans"; font-weight:700; color:white;
+}
+
+.painting_mouse{
+  width:30px; height:30px; position: absolute; pointer-events: none; left:0px; top:0px; display:none; z-index:999999;
+}
+.painting_mouse span{
+  position:absolute; left:-50%; top:-50%; width:30px; height:30px; z-index:100; border-radius:50%; border:solid 1px black; pointer-events: none;
+}
